@@ -1,4 +1,4 @@
-package linkedlist;
+package linkedlist.datastructure;
 
 public class LinkedList {
     private Node head;
@@ -34,6 +34,15 @@ public class LinkedList {
                 "head=" + head +
                 ", size=" + size +
                 '}';
+    }
+
+    public Node get(int index) {
+        Node getNode = null;
+        for (int i = 0; i < index; i++) {
+            if(null == getNode) getNode = head.getNext();
+            else getNode = getNode.getNext();
+        }
+        return getNode;
     }
 }
 

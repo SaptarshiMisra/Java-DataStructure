@@ -1,20 +1,11 @@
-package knownproblems;
+package linkedlist.problems;
 
-import linkedlist.LinkedList;
-import linkedlist.Node;
+import linkedlist.datastructure.LinkedList;
+import linkedlist.datastructure.Node;
+import linkedlist.datastructure.utils.InputListSize;
+import linkedlist.datastructure.utils.Util;
 
 public class ReverseLinkedList {
-    private LinkedList prepareInput(){
-        LinkedList returnList = null ;
-        for (int i = 0; i < 5; i++) {
-             if(null == returnList){
-                 returnList = new LinkedList(i);
-                 continue;
-             }
-             returnList.add(i);
-        }
-        return returnList;
-    }
     private LinkedList reverse(LinkedList inputList){
         if(null != inputList){
             Node head = inputList.getHead();
@@ -34,7 +25,7 @@ public class ReverseLinkedList {
 
     public static void main(String[] args) {
         ReverseLinkedList thisSolution = new ReverseLinkedList();
-        LinkedList inputList = thisSolution.prepareInput();
+        LinkedList inputList = Util.prepareInput(InputListSize.ODD);
         System.out.println("input \n"+inputList);
         System.out.println("output \n"+ thisSolution.reverse(inputList));
     }
