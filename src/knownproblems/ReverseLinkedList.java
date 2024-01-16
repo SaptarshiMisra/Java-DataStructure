@@ -1,4 +1,4 @@
-package leetcode.medium;
+package knownproblems;
 
 import linkedlist.LinkedList;
 import linkedlist.Node;
@@ -25,16 +25,17 @@ public class ReverseLinkedList {
                     head.setNext(null);
                 else head.setNext(prev);// change the next pointer of this node to the prev
                 prev = head;
-                if(null != head) head = next; // check for null before updating else final value of head which is null, will be set to head.
-
+                head = next; // to break the loop, head has to be null. hence later we set updated head to prev, that is the last node.
             }
-            inputList.setHead(head);// update the linked list head after reversing
+            inputList.setHead(prev);// update the linked list head after reversing
         }
         return inputList;
     }
 
     public static void main(String[] args) {
         ReverseLinkedList thisSolution = new ReverseLinkedList();
-        System.out.println(thisSolution.reverse(thisSolution.prepareInput()));
+        LinkedList inputList = thisSolution.prepareInput();
+        System.out.println("input \n"+inputList);
+        System.out.println("output \n"+ thisSolution.reverse(inputList));
     }
 }
