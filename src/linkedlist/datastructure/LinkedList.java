@@ -2,6 +2,11 @@ package linkedlist.datastructure;
 
 public class LinkedList {
     private Node head;
+
+    public void setSize(int size) {
+        this.size = size;
+    }
+
     private int size;
 
     public LinkedList(Object data) {
@@ -30,8 +35,8 @@ public class LinkedList {
 
     @Override
     public String toString() {
-        return "LinkedList{" +
-                "head=" + head +
+        return "{" +
+                  head +
                 ", size=" + size +
                 '}';
     }
@@ -39,7 +44,7 @@ public class LinkedList {
     public Node get(int index) {
         Node getNode = null;
         for (int i = 0; i < index; i++) {
-            if(null == getNode) getNode = head.getNext();
+            if(null == getNode) getNode = head;
             else getNode = getNode.getNext();
         }
         return getNode;
