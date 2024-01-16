@@ -1,13 +1,13 @@
 # Easy
 1. - [x] Print the Middle of a given linked list
-2. - [x] Reverse a Linked List : [src/linkedlist/problems/ReverseLinkedList.java]
+2. - [x] [Reverse a Linked List]( src/linkedlist/problems/ReverseLinkedList.java)
 3. - [ ] Reverse a Doubly Linked List
 4. - [ ] Rotate a linked list.
-5. - [x] Nth node from end of linked list
+5. - [x] [Nth node from end of linked list]( src/linkedlist/problems/NthNodeFromEndOfList.java)
 6. - [ ] Delete last occurrence of an item from linked list
-7. - [x] Delete middle of linked list
+7. - [x] [Delete middle of linked list](src/linkedlist/problems/DeleteMiddleOfList)
 8. - [ ] Remove duplicate elements from sorted linked list
-9. - [x] Detect Loop in linked list
+9. - [x] [Detect Loop in linked list](src/linkedlist/problems/DetectLoopInLinkedList)
 10. - [ ] Delete N nodes after M nodes of a linked list
 11. - [ ] Merge a linked list into another linked list at alternate positions
 12. - [ ] Circular Linked List Traversal
@@ -19,7 +19,7 @@
 18. - [ ] Pairwise swap of a Linked list
 19. - [ ] Occurence of an integer in a Linked List
 20. - [ ] Given a Linked list of 0s, 1s and 2s, sort it
-21. - [x] Deletion in Linked List
+21. - [x] [Deletion in Linked List](src/linkedlist/problems/DeleteMiddleOfList)
 # Medium Level Problems on Linked List Data Structure
 
 1. - [ ] Convert singly linked list into circular linked list
