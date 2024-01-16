@@ -1,4 +1,4 @@
-#Easy
+# Easy
 1. Print the Middle of a given linked list
 2. Reverse a Linked List : [src/linkedlist/problems/ReverseLinkedList.java]
 3. Reverse a Doubly Linked List
@@ -20,7 +20,7 @@
 19. Occurence of an integer in a Linked List
 20. Given a Linked list of 0s, 1s and 2s, sort it
 21. Deletion in Linked List
-#Medium Level Problems on Linked List Data Structure
+# Medium Level Problems on Linked List Data Structure
 
 1. Convert singly linked list into circular linked list
 2. Reverse a linked list in groups of given size
@@ -43,7 +43,7 @@
 19. Convert a given Binary Tree to Doubly Linked List
 20. Construct a linked list from 2D matrix
 21. Reverse a doubly linked list in groups of given size
-#Hard Level Problems on Linked List Data Structure
+# Hard Level Problems on Linked List Data Structure
 
 1. Reverse a sublist of linked list
 2. Rearrange a given linked list in-place.
