@@ -7,9 +7,9 @@ public class Util {
         LinkedList returnList = null ;
         int sizeBoundry = 0;
         switch(listSize){
-            case ODD: sizeBoundry = 5;
-            case EVEN: sizeBoundry = 6;
-            default: sizeBoundry = 5;
+            case ODD: sizeBoundry = 5;break;
+            case EVEN: sizeBoundry = 10;break;
+//            default: sizeBoundry = 5;
         }
         for (int i = 0; i < sizeBoundry; i++) {
             if(null == returnList){
