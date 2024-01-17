@@ -2,8 +2,8 @@ package linkedlist.problems;
 
 import linkedlist.datastructure.LinkedList;
 import linkedlist.datastructure.Node;
-import linkedlist.datastructure.utils.InputListSize;
-import linkedlist.datastructure.utils.Util;
+import linkedlist.utils.InputListSize;
+import linkedlist.utils.Util;
 
 public class NthNodeFromEndOfList {
     //idea is to use two pointers

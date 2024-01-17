@@ -1,4 +1,4 @@
-package linkedlist.datastructure.utils;
+package linkedlist.utils;
 
 public enum InputListSize {
     ODD,
