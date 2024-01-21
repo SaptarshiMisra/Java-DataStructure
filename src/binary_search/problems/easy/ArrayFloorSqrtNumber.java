@@ -4,7 +4,7 @@ import binary_search.util.Utils;
 
 import java.math.BigInteger;
 
-public class FindSqrtClosest {
+public class ArrayFloorSqrtNumber {
     // This approach is assuming that problem needs to find sqrt from an array
     //
     private int getSqrtClosest(int[] input, int squaredNumber){
@@ -58,7 +58,7 @@ public class FindSqrtClosest {
     public static void main(String[] args) {
         int[] input = Utils.prepareSmallEvenSizedIntArray();
         int squaredNumber = 99;
-        System.out.println("Nearest sqrt number is "+new FindSqrtClosest().getSqrtClosest(input,squaredNumber));
-        System.out.println("Floor sqrt number is "+new FindSqrtClosest().floorSqrt(squaredNumber));
+        System.out.println("Nearest sqrt number is "+new ArrayFloorSqrtNumber().getSqrtClosest(input,squaredNumber));
+        System.out.println("Floor sqrt number is "+new ArrayFloorSqrtNumber().floorSqrt(squaredNumber));
     }
 }
