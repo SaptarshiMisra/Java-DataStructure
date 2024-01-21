@@ -1,4 +1,6 @@
 # Java-DataStructure for codegigs.app DataStructure course
-[LinkedList Solid implementation notes](src/linkedlist/notes.md)
+- [binary search problems](src/binary_search/neetcode_roadmap.md)
 
-[LinkedList problems ](src/linkedlist/problems.md)
+- [LinkedList Solid implementation notes](src/linkedlist/notes.md)
+
+- [LinkedList problems ](src/linkedlist/problems.md)
