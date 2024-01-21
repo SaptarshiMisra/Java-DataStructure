@@ -6,7 +6,7 @@
   - Find a node
 
 # medium
-- Search a 2D Matrix
+- [x] [Search a 2D Matrix](problems/easy/SearchIn2DMatrix.java)
 - Koko Eating Bananas
 - Find Minimum In Rotated Sorted Array
 - Search In Rotated Sorted Array
