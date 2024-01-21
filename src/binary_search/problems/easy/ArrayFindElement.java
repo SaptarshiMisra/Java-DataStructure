@@ -12,7 +12,6 @@ public class ArrayFindElement {
             if(input[mid] == searchElement) return true;
             if(input[mid] < searchElement){
                 start = mid + 1;
-
             } else{
                 end = mid - 1;
             }

@@ -1,6 +1,7 @@
 # easy
 - Array
-  - Find an element
+  - [x] [Find an element](problems/easy/ArrayFindElement.java)
+  - Find the closest sqrt item for a squared number 
 - List
   - Find a node
 

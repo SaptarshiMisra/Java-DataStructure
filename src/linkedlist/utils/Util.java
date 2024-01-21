@@ -68,7 +68,7 @@ public class Util {
         //{4->3->2->1->0->null, size=5} ; swap (4,3)
         // outpuut {head -> 3->4->2->1->0->null}
         Node prevNode1 = null, prevNode2 = null,
-                node1 = head, node2 = head;
+        node1 = head, node2 = head;
 
         // Checks if list is empty
         if (head == null) {
