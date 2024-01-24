@@ -1,4 +1,4 @@
-package binary_search.problems.medium;
+package binary_search.Arrays.medium;
 
 //You are given an m x n integer matrix matrix with the following two properties:
 //  Each row is sorted in non-decreasing order.
