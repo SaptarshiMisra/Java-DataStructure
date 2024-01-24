@@ -1,6 +1,8 @@
-package binary_search.Arrays.easy;
+package binary_search.problems.easy;
 
 import binary_search.util.Utils;
+
+import java.util.Arrays;
 
 public class ArrayFindElement {
     private boolean isElementExists(int[] input, int searchElement){
