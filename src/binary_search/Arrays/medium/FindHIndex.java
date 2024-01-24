@@ -1,4 +1,4 @@
-package binary_search.problems.medium;
+package binary_search.Arrays.medium;
 
 import binary_search.util.Utils;
 
