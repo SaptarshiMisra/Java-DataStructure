@@ -1,4 +1,4 @@
-package array.easy;
+package Arrays.easy;
 
 import interfaces.GenericPrinter;
 
