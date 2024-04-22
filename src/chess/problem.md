@@ -103,7 +103,7 @@ Now, without further ado, let’s have some fun and get coding!
 
 ### 1.2 Position class to represent positions on the chessboard.
 
-Let’s create a `Position.java` file to create the Position class. This will hold row and column values corresponding to a piece's location on the board.
+Let's create a `Position.java` file to create the Position class. This will hold row and column values corresponding to a piece's location on the board.
 
     public class Position {
         private int row;
@@ -164,7 +164,7 @@ Let’s create a `Position.java` file to create the Position class. This will ho
         }
         }
 
-In this code, we’re:
+In this code, we're:
 
 - We define the ChessBoard class with a 2D array representing the chessboard.
 - The constructor initializes the board and calls setupPieces() to place pieces in their starting positions.
