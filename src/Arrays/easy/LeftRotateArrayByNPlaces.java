@@ -11,7 +11,7 @@ public class LeftRotateArrayByNPlaces {
     private static int[] leftRotateByNplaces(int[] input, int rotateByPlace) {
         if(input.length == 1) return input;
         //reverse the array between 0 - n
-        int i=0,j=rotateByPlace   cccccccccccc      ;
+        int i=0,j=rotateByPlace;
         //reverse n+1 - array.length
 
         //reverse the whole array
