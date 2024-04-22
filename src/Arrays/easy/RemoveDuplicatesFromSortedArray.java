@@ -1,4 +1,5 @@
-package Array.easy;
+
+package Arrays.easy;
 
 import Arrays.easy.ArrayToStringPrinter;
 import binary_search.util.Utils;
