@@ -1,9 +1,6 @@
 
 package Arrays.easy;
 
-import Arrays.easy.ArrayToStringPrinter;
-import binary_search.util.Utils;
-
 public class RemoveDuplicatesFromSortedArray { 
 
     public static void main(String[] args) {
