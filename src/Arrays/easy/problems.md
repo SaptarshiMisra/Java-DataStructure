@@ -1,32 +1,32 @@
-Largest Element in an Array
+- Largest Element in an Array
 
-Second Largest Element in an Array without sorting
+- Second Largest Element in an Array without sorting
 
-Check if the array is sorted
+- Check if the array is sorted
 
-Remove duplicates from Sorted array
+- Remove duplicates from Sorted array
 
-Left Rotate an array by one place
+- Left Rotate an array by one place
 
-Left rotate an array by D places
+- Left rotate an array by D places
 
-Move Zeros to end
+- Move Zeros to end
 
-Linear Search
+- Linear Search
 
-Find the Union
-	Input: arr1[] = {1, 3, 4, 5, 7}
-	       arr2[] = {2, 3, 5, 6} 
-	Output: Union : {1, 2, 3, 4, 5, 6, 7} 
-	        Intersection : {3, 5}
+- Find the Union
+    Input: arr1[] = {1, 3, 4, 5, 7}
+	*    arr2[] = {2, 3, 5, 6} 
+    Output: Union : {1, 2, 3, 4, 5, 6, 7} 
+	*    Intersection : {3, 5}
 	         
          
-Find missing number in an array
+- Find missing number in an array
 
-Maximum Consecutive Ones
+- Maximum Consecutive Ones
 
-Find the number that appears once, and other numbers twice.
+- Find the number that appears once, and other numbers twice.
 
-Longest subarray with given sum K(positives)
+- Longest subarray with given sum K(positives)
 
-Longest subarray with sum K (Positives + Negatives)
+- Longest subarray with sum K (Positives + Negatives)

@@ -47,12 +47,6 @@ public class UnionOfTwoSortedArrays {
 		}
 		// all elements of arr1 , arr2 were inserted
 
-//		int[] largerArray = one.length > two.length ? one :two;
-//		while( minArrayLength < largerArray.length) {
-//			outputArray[k++] = largerArray[minArrayLength];
-//			minArrayLength ++;
-//		}
-//		
 		return outputArray;
 	}
 
