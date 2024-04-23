@@ -1,9 +1,8 @@
 package Arrays.subarrays;
 
-import util.ArrayToStringPrinter;
 import util.TwoDArrayToStringPrinter;
 
-public class PrintAlSubArrays {
+public class PrintAllSubArrays {
     public static int[][] getSubArrays(int[] input){
 
         //max size possible n*n+1 / 2: represented by sub array count sRowCount
