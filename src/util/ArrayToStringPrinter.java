@@ -1,6 +1,6 @@
-package Arrays.easy;
+package util;
 
-import interfaces.GenericPrinter;
+import util.interfaces.GenericPrinter;
 
 import java.util.Arrays;
 

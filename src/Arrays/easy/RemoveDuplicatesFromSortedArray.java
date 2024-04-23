@@ -1,7 +1,9 @@
 
 package Arrays.easy;
 
-public class RemoveDuplicatesFromSortedArray { 
+import util.ArrayToStringPrinter;
+
+public class RemoveDuplicatesFromSortedArray {
 
     public static void main(String[] args) {
         int[] input = {1,2,2,2,3,4,5,5,6}; // 1,2,3,4,5,6

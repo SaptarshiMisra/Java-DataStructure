@@ -1,5 +1,7 @@
 package Arrays.easy;
 
+import util.ArrayToStringPrinter;
+
 public class UnionOfTwoSortedArrays {
 
 	public UnionOfTwoSortedArrays() {
